@@ -74,7 +74,7 @@ html,body {
     /* border: solid 1px red; */
     display: flex;
     flex-direction: row;
-    height: 40px;
+    height: 50px;
     position: relative;
 }
 
@@ -102,7 +102,7 @@ html,body {
     /* border: solid 1px red; */
     display: flex;
     flex-direction: row;
-    height: 50px;
+    height: 60px;
     position: relative;
 }
 
@@ -131,10 +131,15 @@ html,body {
     width: fit-content;
 }
 
+.row-items:hover {
+    cursor: pointer;
+}
+
 input {
     border-radius: 15px;
     height: 25px;
     width: 250px;
+    padding-left: 10px;
     flex-grow: 1;
 }
 
@@ -149,6 +154,33 @@ button {
 
 button:hover {
     cursor: pointer;
+}
+
+#search-icon {
+    height: 25px;
+}
+
+#bell-icon {
+    height: 25px;
+}
+
+#profile-pic-1 {
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+}
+
+#identity {
+    display: flex;
+    justify-content: space-around;
+    width: 250px;
+    /* border: solid 1px red; */
+}
+
+#profile-pic-2 {
+    height: 45px;
+    width: 45px;
+    border-radius: 100%;
 }
 
 /*
