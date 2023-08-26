@@ -7,7 +7,8 @@ html,body {
     /* border: solid 1px black; */
     /* background-color: darkgray; */
     display: flex;
-    /* height: 100vh; */
+    min-height: 100vh;
+    max-height: 100%;
     min-width: 1000px
 }
 
