@@ -103,7 +103,7 @@ html,body {
     /* border: solid 1px red; */
     display: flex;
     flex-direction: row;
-    height: 60px;
+    height: 70px;
     position: relative;
 }
 
@@ -198,6 +198,7 @@ button:hover {
     grid-template-columns: 7fr 2fr;
     grid-template-areas: "projects announcements" "projects trending";
     gap: 10px;
+    border-top: 1px solid #000;;
 }
 
 /*
@@ -226,9 +227,9 @@ button:hover {
     margin: 15px;
     border-radius: 10px;
     box-shadow: 2px 2px 2px gray;
-
+    display: inline;
+    padding: 10px;
 }
-
 /*
 -------------------------------------------------------
 */
@@ -254,6 +255,7 @@ button:hover {
     border-radius: 10px;
     margin-bottom: 10px;
     box-shadow: 2px 2px 2px gray;
+    padding: 10px;
 }
 
 /*
@@ -281,6 +283,7 @@ button:hover {
     border-radius: 10px;
     margin-bottom: 10px;
     box-shadow: 2px 2px 2px gray;
+    padding: 10px;
 }
 
 /*
